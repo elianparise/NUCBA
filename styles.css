@@ -1,3 +1,45 @@
-li {
-    color: red;
+@font-face {
+    font-family: my-font;
+    src: url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+}
+
+html {
+    font-family: 'my-font'
+}
+
+body {
+    background-color: black;
+}
+li, p, label {
+    color: white;
+}
+
+img {
+    max-width: 200px;
+}
+
+h2, h3 {
+    font-weight: bold;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    color: aqua;
+    font-size: large ;
+
+}
+
+ul {
+    list-style-type: square;
+}
+
+.lista {
+    font-weight: bold;
+    color: aqua;
+    text-decoration: underline;
 }
